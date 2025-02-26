@@ -4,6 +4,7 @@ const config = required('./config')
 const nextConfig = {
     env: {
      DB_URI: config.DB_URI,  
+     API,
     }
 }
 
