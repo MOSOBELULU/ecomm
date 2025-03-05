@@ -5,7 +5,7 @@ export default function TopNav() {
             <Link href='/' className="nav-link">  🛒ecomm</Link>
 
             <div className='d-flex'> 
-                <Link href='/login' classname='nav-link'>
+                <Link href='/login' className='nav-link'>
                 Login
                 </Link>
                 <Link href='/register' className='nav-link'>
