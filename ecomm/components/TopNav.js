@@ -8,7 +8,7 @@ export default function TopNav() {
                 <Link href='/login' classname='nav-link'>
                 Login
                 </Link>
-                <Link href='/register' classname='nav-link'>
+                <Link href='/register' className='nav-link'>
                 Register
                 </Link>
             </div>

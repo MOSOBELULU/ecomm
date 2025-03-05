@@ -4,9 +4,9 @@ import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
 
 export default function Register() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [name, setName] = useState("lu");
+  const [email, setEmail] = useState("lu@gmail.com");
+  const [password, setPassword] = useState("fwear");
   const [loading, setLoading] = useState(false);
 
   const router = useRouter()
