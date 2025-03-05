@@ -1,4 +1,4 @@
-const config = required('./config')
+const config = require('./config')
 
 /** @type { import('next').NextConfig} */
 const nextConfig = {
@@ -8,4 +8,4 @@ const nextConfig = {
     }
 }
 
-module.export = nextConfig;
+module.exports = nextConfig;
