@@ -18,13 +18,13 @@ const userSchema = new mongoose.Schema(
       unique: true,
       trim: true,
       minLength: 5,
-      maxLength: 50, // Emails are usually longer than 20 chars
+      maxLength: 50, 
     },
     password: {
       type: String,
-      required: true, // Ensure password is required
+      required: true,
       trim: true,
-      minLength: 6, // Set a minimum password length for security
+      minLength: 6, 
     },
     role: {
       type: String,
@@ -35,7 +35,7 @@ const userSchema = new mongoose.Schema(
       data: String,
       expiresAt: {
         type: Date,
-        default: () => new Date(Date.now() + 10 * 60 * 1000), // Corrected Date handling
+        default: () => new Date(Date.now() + 10 * 60 * 1000), 
       },
     },
   },
